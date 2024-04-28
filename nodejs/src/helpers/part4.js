@@ -31,7 +31,7 @@ function downloadFile(url) {
 
 const s3 = new AWS.S3();
 
-const api = new GoogleGenerativeAI('AIzaSyA8ASC9PWCjwAQCvKBrMW0A3hZUyeXVLkc')
+const api = new GoogleGenerativeAI('***')
 const model = api.getGenerativeModel({ model: 'gemini-pro' })
 
 function fileToGenerativePart(path, mimeType) {
